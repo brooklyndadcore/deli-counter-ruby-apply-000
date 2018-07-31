@@ -1,10 +1,10 @@
 katz_deli = []
+counter = 0
 
-
-def take_a_number(katz_deli, name) 
-  katz_deli << name 
-  number = (katz_deli.length).to_s
-  puts "Welcome, #{name}. You are number #{number} in line." 
+def take_a_number(katz_deli, counter )
+  counter += 1
+  katz_deli << counter 
+  puts "Welcome, You are number #{counter.to_s}." 
 end
 
 
